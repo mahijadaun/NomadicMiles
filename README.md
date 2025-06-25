@@ -45,11 +45,11 @@ To run **Nomadic Miles** locally, follow these steps:
 2. **Install Dependencies**
    ```sh
     # For frontend
-      cd client
+      cd frontend
       npm install
       
       # For backend
-      cd ../server
+      cd backend
       npm install
 
 3. **Set Up Environment Variables**
@@ -60,12 +60,12 @@ To run **Nomadic Miles** locally, follow these steps:
 4. **Run the Development Server**
    ```sh
    # Run backend
-   cd server
+   cd backend
    npm run dev
    
    # In a new terminal, run frontend
-   cd ../client
-   npm start
+   cd frontend
+   npm run dev
 
 
 
