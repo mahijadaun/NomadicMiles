@@ -40,5 +40,38 @@ To run **Nomadic Miles** locally, follow these steps:
 
 1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/yourusername/nomadic-miles.git
-   cd nomadic-miles
+    git clone https://github.com/mahijadaun/NomadicMiles.git
+    cd NomadicMiles
+2. **Install Dependencies**
+   ```sh
+    # For frontend
+      cd client
+      npm install
+      
+      # For backend
+      cd ../server
+      npm install
+
+3. **Set Up Environment Variables**
+   ```sh
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+
+4. **Run the Development Server**
+   ```sh
+   # Run backend
+   cd server
+   npm run dev
+   
+   # In a new terminal, run frontend
+   cd ../client
+   npm start
+
+
+
+## 👤 Author  
+
+Developed by **Mahi Jadaun** 🚀  
+
+Feel free to **contribute**, **suggest improvements**, or **report issues**! 😊  
+
